@@ -1,10 +1,11 @@
 Installing on Arch Linux
-==================
+========================
 
 Contents
 
-- `Dependecies <http://localhost:8000/html/manual/install/arch.html#dependencies>`_
-- `Installation <http://localhost:8000/html/manual/install/arch.html#installation>`_
+- Dependencies_
+- Installation_
+
 
 Dependencies
 ++++++++++++
@@ -17,8 +18,8 @@ You can download the dependencies from the AUR_.
 
 Other dependencies may include:
 
-- pygtk  (`32-Bit <http://www.archlinux.org/packages/extra/i686/pygtk/>`_/ `64-Bit <http://www.archlinux.org/packages/extra/x86_64/pygtk/>`_)  
-- python2 (`32-Bit <http://www.archlinux.org/packages/extra/i686/python2/>`_/ `64-Bit <http://www.archlinux.org/packages/extra/x86_64/python2/>`_)  
+- pygtk  (`32-Bit <http://www.archlinux.org/packages/extra/i686/pygtk/>`_/ `64-Bit <http://www.archlinux.org/packages/extra/x86_64/pygtk/>`_)
+- python2 (`32-Bit <http://www.archlinux.org/packages/extra/i686/python2/>`_/ `64-Bit <http://www.archlinux.org/packages/extra/x86_64/python2/>`_)
 
 .. _AUR: http://aur.archlinux.org/
 .. _qtile-git: http://aur.archlinux.org/packages.php?ID=20172
@@ -42,7 +43,7 @@ Installing cairo-xcb
    tar -xvzf cairo-xcb-{vernum}
    cd cairo-xcb-{vernum}
    makepkg -s
-   
+
 Once it has finished making install the package with pacman like so:
 
 ::
@@ -59,7 +60,7 @@ Installing pycairo
    tar -xvzf pycairo-xcb-git-{vernum}
    cd pycairo-xcb-git-{vernum}
    makepkg -s
-   
+
 Once it has finished making install the package with pacman like so:
 
 ::
@@ -76,7 +77,7 @@ Installing xpyb-git
    tar -xvzf xpyb-git-{vernum}
    cd xpyb-git-{vernum}
    makepkg -s
-   
+
 Once it has finished making install the package with pacman like so:
 
 ::
@@ -93,13 +94,13 @@ Installing qtile
    tar -xvzf qtile-git-{vernum}
    cd qtile-git-{vernum}
    makepkg -s
-   
+
 Once it has finished making install the package with pacman like so:
 
 ::
 
    sudo pacman -U <packagename>
 
-Qtile should now be installed on your ArchLinux system. Please refer to the 
-`configuration`  documentation to see how to configure your installation for 
+Qtile should now be installed on your ArchLinux system. Please refer to the
+`configuration`  documentation to see how to configure your installation for
 first use.
