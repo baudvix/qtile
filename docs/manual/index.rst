@@ -10,6 +10,7 @@ Get the code using Git:
 :doc:`/manual/install/index`
 
 * :doc:`/manual/install/arch`
+* :doc:`/manual/install/gentoo`
 * :doc:`/manual/install/ubuntu`
 
 :doc:`/manual/config/index`
