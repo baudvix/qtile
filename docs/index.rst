@@ -1,7 +1,7 @@
-Qtile
+Tiling Window Manager in Python
 =====
 
-**A full-featured, hackable tiling window manager written in Python**
+**Qtile is a full-featured, hackable tiling window manager written in Python**
 
 * Simple, small and extensible. It's easy to write your own layouts, widgets
   and built-in commands.

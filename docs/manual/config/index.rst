@@ -55,4 +55,3 @@ Complete example
 
 .. literalinclude:: ../../../examples/config/cortesi-config.py
     :language: python
-    :linenos:
