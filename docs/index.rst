@@ -1,5 +1,5 @@
-Tiling Window Manager in Python
-=====
+Take back your screen!
+======================
 
 **Qtile is a full-featured, hackable tiling window manager written in Python**
 

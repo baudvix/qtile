@@ -1,12 +1,6 @@
 Installing on Arch Linux
 ========================
 
-Contents
-
-- Dependencies_
-- Installation_
-
-
 Dependencies
 ++++++++++++
 You can download the dependencies from the AUR_.
@@ -18,8 +12,8 @@ You can download the dependencies from the AUR_.
 
 Other dependencies may include:
 
-- pygtk  (`32-Bit <http://www.archlinux.org/packages/extra/i686/pygtk/>`_/ `64-Bit <http://www.archlinux.org/packages/extra/x86_64/pygtk/>`_)
-- python2 (`32-Bit <http://www.archlinux.org/packages/extra/i686/python2/>`_/ `64-Bit <http://www.archlinux.org/packages/extra/x86_64/python2/>`_)
+- pygtk  (`32-Bit <http://www.archlinux.org/packages/extra/i686/pygtk/>`_ / `64-Bit <http://www.archlinux.org/packages/extra/x86_64/pygtk/>`_)
+- python2 (`32-Bit <http://www.archlinux.org/packages/extra/i686/python2/>`_ / `64-Bit <http://www.archlinux.org/packages/extra/x86_64/python2/>`_)
 
 .. _AUR: http://aur.archlinux.org/
 .. _qtile-git: http://aur.archlinux.org/packages.php?ID=20172
@@ -27,11 +21,8 @@ Other dependencies may include:
 .. _pycairo-xcb-git: http://aur.archlinux.org/packages.php?ID=43939
 .. _xpyb-git: http://aur.archlinux.org/packages.php?ID=40922
 
-Installation
-++++++++++++
-
-Installation via AUR-helper
----------------------------
+Installation via AUR Helpers
+++++++++++++++++++++++++++++
 
 The easiest way to install package from AUR is to use an
 `AUR Helper <https://wiki.archlinux.org/index.php/AUR_Helpers>`_.
@@ -44,12 +35,12 @@ For example, if you use yaourt:
 
 
 Installation via pacman and AUR
--------------------------------
++++++++++++++++++++++++++++++++
 
 We'll start with the cairo-xcb package:
 
-Installing cairo-xcb
-~~~~~~~~~~~~~~~~~~~~
+cairo-xcb
+~~~~~~~~~
 
 ::
 
@@ -65,8 +56,8 @@ Once it has finished making install the package with pacman like so:
 
 Allow the package to install and we can move onto the next packages.
 
-Installing pycairo
-~~~~~~~~~~~~~~~~~~
+pycairo
+~~~~~~~
 
 ::
 
@@ -82,8 +73,8 @@ Once it has finished making install the package with pacman like so:
 
 Allow the package to install and we can move onto the next packages.
 
-Installing xpyb-git
-~~~~~~~~~~~~~~~~~~~
+xpyb-git
+~~~~~~~~
 
 ::
 
@@ -99,8 +90,8 @@ Once it has finished making install the package with pacman like so:
 
 Allow the package to install and we can move onto installing Qtile proper.
 
-Installing qtile
-~~~~~~~~~~~~~~~~
+qtile
+~~~~~
 
 ::
 
@@ -114,6 +105,6 @@ Once it has finished making install the package with pacman like so:
 
    sudo pacman -U <packagename>
 
-Qtile should now be installed on your ArchLinux system. Please refer to the
-`configuration`  documentation to see how to configure your installation for
-first use.
+Qtile should now be installed on your Arch Linux system. Please refer to the
+:doc:`/manual/config/index` documentation to see how to configure your
+installation for first use.
