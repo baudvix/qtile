@@ -20,4 +20,4 @@ large version:
 |screenshot|_
 
 .. |screenshot| image:: /_static/qtile-screenshot-small.png
-.. _screenshot: /_static/qtile-screenshot.png
+.. _screenshot: _static/qtile-screenshot.png

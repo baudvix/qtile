@@ -29,7 +29,7 @@ edges of the graph. This is what the graph looks like:
 .. image:: /_static/objgraph.png
 
 Each arrow can be read as "holds a reference to". So, we can see that a
-``widget`` object _holds a reference to_ objects of type ``bar``, ``screen``
+``widget`` object *holds a reference to* objects of type ``bar``, ``screen``
 and ``group``. Lets start with some simple examples of how the addressing
 works. Which particular objects we hold reference to depends on the context -
 for instance, widgets hold a reference to the screen that they appear on, and

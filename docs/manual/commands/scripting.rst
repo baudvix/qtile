@@ -12,7 +12,7 @@ class. This class establishes a connection to the currently running instance of
 Qtile, and sources the user's configuration file to figure out which commands
 should be exposed. Commands then appear as methods with the appropriate
 signature on the ``Client`` object.  The object hierarchy is described in the
-:doc:`commands </commands/index>` section of this manual. Full command
+:doc:`/manual/commands/index` section of this manual. Full command
 documentation is available through the :doc:`Qtile Shell
 </manual/commands/qsh>`.
 

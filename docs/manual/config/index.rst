@@ -48,10 +48,12 @@ A function that executes after the window manager is initialized, but before
 groups, screens and other components are set up. There are few reasons to use
 this, other than testing and debugging.
 
-Complete example
-~~~~~~~~~~~~~~~~
+----
 
-**examples/config/cortesi-config.py:**
+Putting it all together
+-----------------------
 
-.. literalinclude:: ../../../examples/config/cortesi-config.py
-    :language: python
+The qtile-examples repository includes a number of real-world configurations
+that demonstrate how you can tune Qtile to your liking.
+
+https://github.com/qtile/qtile-examples

@@ -7,7 +7,7 @@ checkouts from their repositories. Here's a brief step-by-step guide:
 
 
 libxcb
-~~~~~~
+------
 
 ::
 
@@ -19,7 +19,7 @@ libxcb
 
 
 xpyb-ng
-~~~~~~~
+-------
 
 ::
 
@@ -28,7 +28,7 @@ xpyb-ng
 
 
 cairo
-~~~~~
+-----
 
 The latest cairo release works, but recompiling with xcb support is needed.
 
@@ -43,7 +43,7 @@ The latest cairo release works, but recompiling with xcb support is needed.
 
 
 py2cairo
-~~~~~~~~
+--------
 
 ::
 
@@ -60,7 +60,7 @@ Check the configure output to make sure that XPYB is correctly detected.
 
 
 PyGTK
-~~~~~
+-----
 
 We also require a reasonably recent version of the Python GTK bindings, in
 particular, the pango module. You should just be able to install this using
