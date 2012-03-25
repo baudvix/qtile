@@ -41,7 +41,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Qtile'
-copyright = u'2012, Aldo Cortesi'
+copyright = u'2012, Aldo Cortesi and contributers'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -81,7 +81,7 @@ exclude_patterns = ['_build']
 #show_authors = False
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = 'friendly'
 
 # A list of ignored prefixes for module index sorting.
 #modindex_common_prefix = []
@@ -91,7 +91,7 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'kr'
+html_theme = 'qtile'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -132,19 +132,19 @@ html_static_path = ['_static']
 
 # Custom sidebar templates, maps document names to template names.
 html_sidebars = {
-    'index': ['sidebar_intro.html', 'sidebar_index.html', 'sourcelink.html', 'searchbox.html'],
-    '**': ['sidebar_intro.html', 'localtoc.html', 'sourcelink.html', 'searchbox.html']
+    'index': ['sidebar_intro.html', 'sidebar_index.html', 'searchbox.html'],
+    '**': ['sidebar_intro.html', 'localtoc.html', 'searchbox.html']
 }
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
-#html_additional_pages = {}
+#html_additional_pages = {'index': 'index.html'}
 
 # If false, no module index is generated.
-#html_domain_indices = True
+html_domain_indices = True
 
 # If false, no index is generated.
-#html_use_index = True
+html_use_index = True
 
 # If true, the index is split into individual pages for each letter.
 #html_split_index = False

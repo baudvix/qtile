@@ -7,13 +7,13 @@ from its global namespace.
 
 ----
 
-:doc:`Groups </manual/config/groups>`
+:doc:`/manual/config/groups`
 
 A list of ``libqtile.manager.Group`` objects which defines the group names.
 
 ----
 
-:doc:`Keys </manual/config/keys>`
+:doc:`/manual/config/keys`
 
 A list of ``libqtile.manager.Key`` objects which defines the keybindings. At a
 minimum, this will probably include bindings to switch between windows, groups
@@ -21,20 +21,20 @@ and layouts.
 
 ----
 
-:doc:`Layouts </manual/config/layouts>`
+:doc:`/manual/config/layouts`
 
 A list layout objects, configuring the layouts you want to use.
 
 ----
 
-:doc:`Mouse </manual/config/mouse>`
+:doc:`/manual/config/mouse`
 
 A list of ``libqtile.manager.Drag`` and ``libqtile.manager.Click`` objects
 defining mouse operations.
 
 ----
 
-:doc:`Screens </manual/config/screens>`
+:doc:`/manual/config/screens`
 
 A list of ``libqtile.manager.Screen`` objects, which defines the physical
 screens you want to use, and the bars and widgets associated with them. Most of

@@ -1,8 +1,7 @@
 #!/bin/sh
 
-workon dmpayton;
-
 while [ true ]; do
+    #rm -rf _build/*
     make html
     sleep 5
 done

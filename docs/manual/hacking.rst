@@ -1,6 +1,13 @@
 Hacking Qtile
 =============
 
+Requirements
+------------
+
+If you plan to run the test suite, you will need `the Pry unit testing
+framework <https://github.com/cortesi/pry>`_, and the `Python X Library
+<http://python-xlib.sourceforge.net/>`_.
+
 Using Xephyr and the test suite
 -------------------------------
 

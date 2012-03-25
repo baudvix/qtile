@@ -15,7 +15,7 @@ Navigating the Object Graph
 The shell presents a filesystem-like interface to the object graph - the
 builtin "cd" and "ls" commmands act like their familiar shell counterparts:
 
-::
+.. code-block:: bash
 
     > ls
     layout/  widget/  screen/  bar/     window/  group/
@@ -38,14 +38,14 @@ builtin "cd" and "ls" commmands act like their familiar shell counterparts:
 Note that the shell provides a "short-hand" for specifying node keys (as
 opposed to children). The following is a valid shell path:
 
-::
+.. code-block:: bash
 
     > cd group/4/window/31457314
 
 The command prompt will, however, always display the Python node path that
 should be used in scripts and key bindings:
 
-::
+.. code-block:: bash
 
     group['4'].window[31457314]>
 
@@ -54,7 +54,7 @@ Documentation
 
 The shell help provides the canonical documentation for the Qtile API:
 
-::
+.. code-block:: bash
 
     > cd layout/1
 

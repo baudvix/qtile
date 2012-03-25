@@ -7,7 +7,7 @@ When I first start xterm/urxvt/rxvt containing an instance of Vim, I see text an
 Vim is not handling terminal resizes correctly. You can fix the probelm by
 starting your xterm with the "-wf" option, like so:
 
-::
+.. code-block:: bash
 
     xterm -wf -e vim
 
@@ -21,9 +21,9 @@ How do I know which modifier specification maps to which key?
 To see a list of modifier names and their matching keys, use the ``xmodmap``
 command. On my system, the output looks like this:
 
-::
+.. code-block:: bash
 
-    > xmodmap
+    $ xmodmap
     xmodmap:  up to 3 keys per modifier, (keycodes in parentheses):
 
     shift       Shift_L (0x32),  Shift_R (0x3e)

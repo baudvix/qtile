@@ -18,7 +18,7 @@ documentation is available through the :doc:`Qtile Shell
 
 
 Example
-~~~~~~~
+-------
 
 Below is a very minimal example script that inspects the current qtile
 instance, and returns the integer offset of the current screen.
@@ -27,4 +27,3 @@ instance, and returns the integer offset of the current screen.
 
 .. literalinclude:: ../../../examples/scripts/minimal-client.py
     :language: python
-    :linenos:

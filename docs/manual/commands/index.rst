@@ -39,7 +39,7 @@ Lets look at an example, starting at the root node. The following script runs
 the ``status`` command on the root node, which, in this case, is represented by
 the Client object:
 
-::
+.. code-block:: python
 
     from libqtile.command import Client
     c = Client()
@@ -49,14 +49,14 @@ From the graph, we can see that the root node holds a reference to
 ``group`` nodes. We can access the "info" command on the current group like
 so:
 
-::
+.. code-block:: python
 
     c.group.info()
 
 To access a specific group, regardless of whether or not it is current, we use
 the Python containment syntax. This command sends group "b" to screen 1:
 
-::
+.. code-block:: python
 
     c.group["b"].to_screen(1)
 
@@ -67,7 +67,7 @@ mandatory for ``widget`` and ``bar`` nodes.
 We can now drill down deeper in the graph. To access the screen
 currently displaying group "b", we can do this:
 
-::
+.. code-block:: python
 
     c.group["b"].screen.info()
 
@@ -75,14 +75,15 @@ Be aware, however, that group "b" might not currently be displayed. In that
 case, it has no associated screen, the path resolves to a non-existent
 node, and we get an exeption:
 
-::
+.. code-block:: python
 
     libqtile.command.CommandError: No object screen in path 'group['b'].screen'
+
 
 The graph is not a tree, since it can contain cycles. This path (redundantly)
 specifies the group belonging to the screen that belongs to group "b":
 
-::
+.. code-block:: python
 
     c.group["b"].screen.group()
 
@@ -91,22 +92,39 @@ Keys
 
 The key specifier for the various object types are as follows:
 
-+--------+-------------------+-----------+--------------------------+
-| Object | Key               | Optional? | Example                  |
-+========+===================+===========+==========================+
-| bar    | "top", "bottom"   | No        | - c.screen.bar["bottom"] |
-+--------+-------------------+-----------+--------------------------+
-| group  | Name string       | Yes       | - c.group["one"]         |
-|        |                   |           | - c.group                |
-+--------+-------------------+-----------+--------------------------+
-| layout | Integer offset    | Yes       | - c.layout[2]            |
-|        |                   |           | - c.layout               |
-+--------+-------------------+-----------+--------------------------+
-| screen | Integer offset    | Yes       | - c.screen[1]            |
-|        |                   |           | - c.screen               |
-+--------+-------------------+-----------+--------------------------+
-| widget | Widget name       | No        | - c.widget["textbox"]    |
-+--------+-------------------+-----------+--------------------------+
-| window | Integer window ID | Yes       | - c.window[123456]       |
-|        |                   |           | - c.window               |
-+--------+-------------------+-----------+--------------------------+
+.. list-table::
+    :widths: 15 30 15 40
+    :header-rows: 1
+
+    * - Object
+      - Key
+      - Optional?
+      - Example
+    * - Bar
+      - "top", "bottom"
+      - No
+      - | c.screen.bar["bottom"]
+    * - group
+      - Name string
+      - Yes
+      - | c.group["one"]
+        | c.group
+    * - layout
+      - Integer offset
+      - Yes
+      - | c.layout[2]
+        | c.layout
+    * - screen
+      - Integer offset
+      - Yes
+      - | c.screen[1]
+        | c.screen
+    * - widget
+      - Widget name
+      - No
+      - | c.widget["textbox"]
+    * - window
+      - Integer window ID
+      - Yes
+      - | c.window[123456]
+        | c.window

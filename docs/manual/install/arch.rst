@@ -7,26 +7,28 @@ Using an AUR Helper
 -------------------
 
 The preferred way to install Qtile is with an `AUR helper`_. For example,
-if you use `yaourt`_::
+if you use `yaourt`_:
+
+.. code-block:: bash
 
     yaourt -S qtile-git
 
-Manual installation with pacman
--------------------------------
+Using pacman
+------------
 
-Dependencies
-~~~~~~~~~~~~
+**Packages in Core:**
 
-**From Core:**
 
 - pygtk  (`32-Bit <pygtk-32>`_ / `64-Bit <pygtk-64>`_)
 - python2 (`32-Bit <python2-32>`_ / `64-Bit <python2-64>`_)
 
-If you don't have these already, they can be installed with::
+If you don't have these already, they can be installed with:
+
+.. code-block:: bash
 
     sudo pacman -S pygtk python2
 
-**From AUR:**
+**Packages in the AUR:**
 
 - `cairo-xcb`_
 - `pycairo-xcb-git`_
@@ -34,21 +36,22 @@ If you don't have these already, they can be installed with::
 - `qtile-git`_
 
 To install these packages, download the .tar.gz's from the AUR and run the
-following commands for each::
+following commands for each:
+
+.. code-block:: bash
 
     tar -xvzf <packagename>-<vernum>.tar.gz
     cd <packagename>-<vernum>
     makepkg -s
     sudo pacman -U <packagename>
 
-Please see the Arch Wiki for more information on installingnpackages from
+Please see the Arch Wiki for more information on installing packages from
 the AUR:
 
 http://wiki.archlinux.org/index.php/AUR#Installing_packages
 
-.. _AUR: http://aur.archlinux.org/
+.. _AUR: https://wiki.archlinux.org/index.php/AUR
 .. _AUR Helper: http://wiki.archlinux.org/index.php/AUR_Helpers
-.. _AUR Install: http://wiki.archlinux.org/index.php/AUR#Installing_packages
 .. _yaourt: http://wiki.archlinux.org/index.php/Yaourt
 .. _qtile-git: http://aur.archlinux.org/packages.php?ID=20172
 .. _cairo-xcb: http://aur.archlinux.org/packages.php?ID=40641

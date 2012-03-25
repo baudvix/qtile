@@ -1,14 +1,9 @@
-Documentation
-=============
-
-Get the code using Git:
-
-::
-
-  git clone git://github.com/cortesi/qtile.git
+Qtile Documentation
+===================
 
 :doc:`/manual/install/index`
 
+* :doc:`/manual/install/source`
 * :doc:`/manual/install/arch`
 * :doc:`/manual/install/gentoo`
 * :doc:`/manual/install/ubuntu`
@@ -31,3 +26,16 @@ Get the code using Git:
 :doc:`/manual/hacking`
 
 :doc:`/manual/license`
+
+.. toctree::
+    :glob:
+    :hidden:
+
+    /index
+    /manual/install/index
+    /manual/install/*
+    /manual/config/index
+    /manual/config/*
+    /manual/commands/index
+    /manual/commands/*
+    /manual/*
