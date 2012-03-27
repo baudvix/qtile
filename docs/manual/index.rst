@@ -26,16 +26,3 @@ Qtile Documentation
 :doc:`/manual/hacking`
 
 :doc:`/manual/license`
-
-.. toctree::
-    :glob:
-    :hidden:
-
-    /index
-    /manual/install/index
-    /manual/install/*
-    /manual/config/index
-    /manual/config/*
-    /manual/commands/index
-    /manual/commands/*
-    /manual/*

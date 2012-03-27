@@ -99,7 +99,7 @@ Get Involved!
         <tr>
             <td width="50%">
                 <p class="biglink">
-                    <a class="biglink" href="https://github.com/cortesi/qtile/issues/">Issue Tracker</a><br/>
+                    <a class="biglink" href="https://github.com/qtile/qtile/issues/">Issue Tracker</a><br/>
                     <span class="linkdescr">report bugs and request features</span>
                 </p>
             </td>
@@ -111,3 +111,16 @@ Get Involved!
             </td>
         </tr>
     </table>
+
+.. toctree::
+    :glob:
+    :hidden:
+
+    /index
+    /manual/install/index
+    /manual/install/*
+    /manual/config/index
+    /manual/config/*
+    /manual/commands/index
+    /manual/commands/*
+    /manual/*

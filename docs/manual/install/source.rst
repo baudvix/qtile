@@ -71,6 +71,6 @@ Qtile
 
 .. code-block:: bash
 
-    git clone git://github.com/cortesi/qtile.git
+    git clone git://github.com/qtile/qtile.git
     cd qtile
     sudo python setup.py install
