@@ -1,28 +1,55 @@
 Qtile Documentation
 ===================
 
-:doc:`/manual/install/index`
+Everything you need to know about Qtile.
 
-* :doc:`/manual/install/source`
-* :doc:`/manual/install/arch`
-* :doc:`/manual/install/gentoo`
-* :doc:`/manual/install/ubuntu`
+Installing
+----------
 
-:doc:`/manual/config/index`
+* **Getting started**:
+  :doc:`Overview </manual/install/index>` |
+  :doc:`From source </manual/install/source>`
 
-* :doc:`/manual/config/groups`
-* :doc:`/manual/config/keys`
-* :doc:`/manual/config/layouts`
-* :doc:`/manual/config/mouse`
-* :doc:`/manual/config/screens`
+* **Distro guides**:
+  :doc:`Arch Linux </manual/install/arch>` |
+  :doc:`Gentoo </manual/install/gentoo>` |
+  :doc:`Ubuntu </manual/install/ubuntu>`
 
-:doc:`/manual/commands/index`
+Configuration
+-------------
 
-* :doc:`/manual/commands/scripting`
-* :doc:`/manual/commands/qsh`
+* **The basics**: :doc:`Overview </manual/config/index>`
 
-:doc:`/manual/faq`
+* **Config variables**:
+  :doc:`groups </manual/config/groups>` |
+  :doc:`keys </manual/config/keys>` |
+  :doc:`layouts </manual/config/layouts>` |
+  :doc:`mouse </manual/config/mouse>` |
+  :doc:`screens </manual/config/screens>`
 
-:doc:`/manual/hacking`
+* **Examples**:
+  `Default config <https://github.com/qtile/qtile/blob/master/libqtile/resources/default-config.py>`_ |
+  `qtile-examples <https://github.com/qtile/qtile-examples>`_
 
-:doc:`/manual/license`
+Commands and scripting
+----------------------
+
+* **The basics**:
+  :doc:`Overview </manual/commands/index>`
+
+* **Diving in**:
+  :doc:`Scripting </manual/commands/scripting>` |
+  :doc:`qsh </manual/commands/qsh>`
+
+Reference
+---------
+
+* :doc:`Built-in Layouts </manual/ref/layouts>`
+* :doc:`Built-in Widgets </manual/ref/widgets>`
+
+Miscellaneous
+-------------
+
+* :doc:`Frequently Asked Questions </manual/faq>`
+* :doc:`Hacking Qtile </manual/hacking>`
+* :doc:`License </manual/license>`
