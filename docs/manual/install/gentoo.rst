@@ -11,6 +11,7 @@ Take libxcb-1.8.1 from portage.
 You need to unmask.
 
 .. code-block:: bash
+
     echo "x11-libs/libxcb ~amd64" >> /etc/portage/package.keywords
     emerge -av libxcb
 

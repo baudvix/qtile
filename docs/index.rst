@@ -116,11 +116,12 @@ Get Involved!
     :glob:
     :hidden:
 
-    /index
     /manual/install/index
     /manual/install/*
     /manual/config/index
     /manual/config/*
     /manual/commands/index
     /manual/commands/*
+    /manual/ref/index
+    /manual/ref/*
     /manual/*

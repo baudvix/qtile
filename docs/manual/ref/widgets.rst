@@ -844,7 +844,7 @@ A widget that graphically displays the current group.
       - Widget background
     * - highlight_method
       - ``"border"``
-      - Method of highlighting (one of 'border' or 'block') Uses *_border color settings
+      - Method of highlighting (one of 'border' or 'block') Uses \*_border color settings
     * - rounded
       - ``True``
       - To round or not to round borders

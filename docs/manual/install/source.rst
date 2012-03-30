@@ -23,7 +23,8 @@ xpyb-ng
 
 .. code-block:: bash
 
-    git clone https://github.com/dequis/xpyb-ng.git
+    git clone https://github.com/qtile/xpyb-ng.git
+    cd xpyb-ng
     python setup.py install
 
 
